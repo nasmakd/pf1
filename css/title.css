@@ -1,5 +1,6 @@
 #title {
   /* height: 100%; */
+  width: calc(100% - 180px);
   background-image:url(../img/section01_bg.png);
   background-size: cover;
   background-position: center;

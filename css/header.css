@@ -24,6 +24,7 @@ header div.inner {
   position: relative;
   padding: 50px 0;
   box-sizing: border-box;
+  row-gap: 50px;
 }
 
 header div.inner h1 {
@@ -128,7 +129,7 @@ header div.inner ul.gnb li ul.gnbsub li{
 header div.inner ul.gnb li ul.gnbsub li a{
   display: block;
   font-size: 15px;
-  padding: 17.5px 0;
+  line-height: 50px;
   transition: color 500ms;
 }
 header div.inner ul.gnb li ul.gnbsub li a:hover{
@@ -136,6 +137,10 @@ header div.inner ul.gnb li ul.gnbsub li a:hover{
 }
 header div.inner ul.enb {
   display: flex; 
+  position: fixed;
+  gap: 10px;
+  top: 30px;
+  right: 30px;
 }
 header div.inner ul.enb li {
   
@@ -173,11 +178,7 @@ header div.inner ul.tnb{
   display: flex;
   width: 100%;
   flex-direction: column;
-  position: absolute;
-  left: 50%;
-  bottom: 10%;
   font-size: 12px;
-  transform: translateX(-50%);
   gap: 14px;
   text-align: center;
 }
