@@ -61,6 +61,7 @@ header div.inner ul.gnb::before{
 }
 header div.inner ul.gnb:hover::before{
   width: 1000px;
+  box-shadow: 0 5px 5px rgba(116, 116, 116, 0.5);
 }
 
 header div.inner ul.gnb > li {
