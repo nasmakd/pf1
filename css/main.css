@@ -2,6 +2,7 @@ main{
   background-image: url(../img/section02_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: 180px;
 }
 #taste {
   

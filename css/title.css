@@ -12,6 +12,7 @@
   min-height: 700px;
   padding-bottom: 200px;
   position: relative;
+  left: 180px;
 }
 
 #title::before{
